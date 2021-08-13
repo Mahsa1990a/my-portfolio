@@ -44,6 +44,7 @@
 :root {
   --primary-white: #fff;
   --primary-orange: #f9ab00;
+  --primary-dark: rgba(255,255,255,0);
 }
 
 body {
@@ -71,6 +72,8 @@ nav ul li {
   margin-right: 0.75rem;
   margin-left: 0.75rem;
   color: var(--primary-white) !important;
+  /* 1. we have border on top  */
+  border-top: 0.1875rem solid var(--primary-dark);
 }
 
 .navbar-brand {
@@ -80,5 +83,6 @@ nav ul li {
 }
 
 .navbar-nav > li > a.active, .navbar-nav > li > a:focus {
+  /* 2. we update the color of our top-border */
   border-top: 0.1875rem solid var(--primary-orange);
 }
