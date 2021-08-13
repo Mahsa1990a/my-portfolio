@@ -43,6 +43,7 @@
 /* Making variable for our color: */
 :root {
   --primary-white: #fff;
+  --primary-orange: #f9ab00;
 }
 
 body {
@@ -76,4 +77,8 @@ nav ul li {
   max-width: 17.25rem;
   padding: 0 !important;
   height: 6rem !important;
+}
+
+.navbar-nav > li > a.active, .navbar-nav > li > a:focus {
+  border-top: 0.1875rem solid var(--primary-orange);
 }
