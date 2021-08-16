@@ -9,7 +9,19 @@ import Header from './component/Header';
 function App() {
   return (
     <>
-      <Particles />
+      <Particles 
+        params={{
+          particles: {
+            number: {
+              value: 30,
+              density: {
+                enable: true,
+                value_area: 900
+              }
+            }
+          }
+        }}
+      />
       <Navbar />
       <Header />
     </>
