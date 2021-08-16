@@ -17,6 +17,7 @@ const Header = () => {
             // It's gonna do non stop looping
             loop
           />
+          <a href="#" className="btn-main-offer">Contact Me</a>
         </div>
       </div>
     </div>

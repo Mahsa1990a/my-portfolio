@@ -45,7 +45,9 @@
   --primary-white: #fff;
   --primary-orange: #f9ab00;
   --primary-dark: rgba(255,255,255,0);
-  --primary-black: #000000
+  --primary-black: #000000;
+  --primary-red: #ef0435;
+  --primary-hover-red: #f33501;
 }
 
 body {
@@ -107,12 +109,19 @@ nav ul li {
   /* Make sure this color has an opacity of less than 1 */
   background: rgba(255, 255, 255, 0.001); 
   /* // This be the blur */
-  backdrop-filter: blur(8px); 
+  backdrop-filter: blur(6px); 
   height: 90vh;
 }
 
 .main-info {
   display: flex;
+  /* Let's center it */
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* Till here */
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -129,4 +138,13 @@ nav ul li {
 .typed-text {
   font-size: 2rem;
   color: var(--primary-black);
+}
+/********************************** Header Main Offer Button **********************************************/
+.btn-main-offer {
+  border: 1px solid var(--primary-red);
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+  color: var(--primary-white);
+  margin: 2rem;
 }
