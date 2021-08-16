@@ -55,6 +55,11 @@ body {
 }
 
 /********************************** Navbar **********************************************/
+nav {
+  /* for going animations on the back of navbar */
+  z-index: 2;
+}
+
 .picture {
   width: 6rem;
   border-radius: 50%;
