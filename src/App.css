@@ -118,3 +118,9 @@ nav ul li {
   text-align: center;
   font-family: "Roboto Condensed', sans-serif";
 }
+
+.main-info h1 {
+  color: var(--primary-orange);
+  text-transform: uppercase;
+  
+}
