@@ -45,6 +45,7 @@
   --primary-white: #fff;
   --primary-orange: #f9ab00;
   --primary-dark: rgba(255,255,255,0);
+  --primary-black: #000000
 }
 
 body {
@@ -122,5 +123,10 @@ nav ul li {
 .main-info h1 {
   color: var(--primary-orange);
   text-transform: uppercase;
-  
+}
+
+/********************************** Typed-Text **********************************************/
+.typed-text {
+  font-size: 2rem;
+  color: var(--primary-black);
 }
