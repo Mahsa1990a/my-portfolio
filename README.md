@@ -1,3 +1,9 @@
+<!-- React Hooks
+Bootstrap 5
+React-Partials-JS
+React-Popupbox
+React-Responsive-Carousel -->
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
