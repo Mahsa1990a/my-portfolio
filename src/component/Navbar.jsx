@@ -1,5 +1,5 @@
 import React from "react";
-import picture from "../pic.JPG";
+import picture from "../logo.jpg";
 // REACT FONTAWSOME IMPORT:
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons"; // haumburger menu icon
