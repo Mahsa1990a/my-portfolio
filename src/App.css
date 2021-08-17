@@ -197,6 +197,11 @@ nav ul li {
   }
 }
 /********************************** About Me **********************************************/
+.photo-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .profile-img {
   width: 16rem;
   border-radius: 50%;
@@ -206,4 +211,13 @@ nav ul li {
 .about-me-text {
   font-family: 'Pangolin', cursive;
   font-size: larger;
+}
+.about-heading {
+  text-transform: uppercase;
+  color: var(--primary-orange);
+}
+@media(max-width: 468px) {
+  .profile-img {
+    width: 10rem;
+  }
 }
