@@ -41,6 +41,7 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
 /* Making variable for our color: */
 :root {
   --primary-white: #fff;
@@ -53,7 +54,7 @@
 
 body {
   /* font-family: "Roboto Condensed', sans-serif"; */
-  font-family: 'Patrick Hand', cursive !important;
+  /* font-family: 'Patrick Hand', cursive !important; */
 }
 
 /********************************** Navbar **********************************************/
@@ -140,7 +141,7 @@ nav ul li {
   align-items: center;
   text-align: center;
   /* font-family: "Roboto Condensed', sans-serif"; */
-  /* font-family: 'Patrick Hand', cursive; */
+  font-family: 'Patrick Hand', cursive;
 
   z-index: 1;
 }
@@ -194,4 +195,15 @@ nav ul li {
   .particles-canvas {
     display: none;
   }
+}
+/********************************** About Me **********************************************/
+.profile-img {
+  width: 16rem;
+  border-radius: 50%;
+  padding: 0.3rem;
+  border: 1px solid var(--primary-orange);
+}
+.about-me-text {
+  font-family: 'Pangolin', cursive;
+  font-size: larger;
 }
