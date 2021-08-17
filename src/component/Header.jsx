@@ -1,5 +1,5 @@
 import React from "react";
-import Typed from "react-typed";
+import Typed from "react-typed";  // Typing and removing
 
 const Header = () => {
   return (
@@ -9,7 +9,7 @@ const Header = () => {
           <h1>Web Development and Websites Promotions</h1>
           <Typed 
             className="typed-text"
-            strings={["Web Desing", "Web Development", "Frontend Developer"]}
+            strings={["Web Desing", "Web Development", "Frontend Development, Backend Development"]}
             // The speed for writing
             typeSpeed={40}
             // The speed for back writing
