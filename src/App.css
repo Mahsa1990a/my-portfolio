@@ -53,6 +53,7 @@
   --primary-red: #ef0435;
   --primary-hover-red: #f33501;
   --primary-grey: #ccd1d9;
+  --primary-pink: #f3dee9;
 }
 
 /* body {
@@ -243,6 +244,7 @@ nav ul li {
   margin-bottom: 1.875rem;
   margin-top: 1.875rem;
   background: var(--primary-white);
+  transition: 0.3s ease-in-out;
 }
 
 .education .box:hover {
@@ -272,6 +274,11 @@ nav ul li {
   }
 }
 /********************************** Experience **********************************************/
+.experience {
+  padding: 0.7rem;
+  background-color: var(--primary-pink);
+}
+
 .experince-wrapper {
   position: relative;/* to be in the center of block */
   padding: 3.125rem;
@@ -342,5 +349,9 @@ nav ul li {
   }
   .timeline-block-right {
     float: none;
+    width: 100%;
+  }
+  .timeline-block-left {
+    width: 100%;
   }
 }
