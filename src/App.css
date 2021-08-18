@@ -45,7 +45,7 @@
 /* Making variable for our color: */
 :root {
   --primary-white: #ffffff;
-  --primary-light-grey: #f4f4f4;
+  --primary-light-grey: #d1cece;
   --primary-orange: #f9ab00;
   --primary-dark: rgb(52, 58, 64);
   --primary-black: #000000;
@@ -229,14 +229,14 @@ nav ul li {
   background: var(--primary-light-grey);
 }
 .education h1 {
-  color: var(--primary-dark);
+  color: var(--primary-orange);
   text-transform: uppercase;
 }
 
 .education .box {
   height: 16rem;
   border-bottom: 0.3125rem solid var(--primary-orange);
-  padding: 0.625rem;
+  padding: 2rem;
   margin-bottom: 1.875rem;
   margin-top: 1.875rem;
   background: var(--primary-white);
