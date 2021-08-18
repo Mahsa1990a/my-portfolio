@@ -7,6 +7,7 @@ import Navbar from './component/Navbar';
 import Header from './component/Header';
 import AboutMe from './component/AboutMe';
 import Education from './component/Education';
+import Experience from './component/Experience';
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
       <Header />
       <AboutMe />
       <Education />
+      <Experience />
     </>
   );
 }
