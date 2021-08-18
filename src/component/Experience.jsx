@@ -11,6 +11,7 @@ const Experience = () => {
         <div className="timeline-block timeline-block-right">
           <div className="marker"></div>
           <div className="timeline-content">
+            <h2>Lighthouse Labs ... Toronto</h2>
             <h3>Apr.2021 To Present</h3>
             <p>
               * Mentor students who are enrolled in a 12-week intensive Web Development Bootcamp <br></br>
@@ -25,6 +26,7 @@ const Experience = () => {
         <div className="timeline-block timeline-block-left">
           <div className="marker"></div>
           <div className="timeline-content">
+            <h2>D&V Electronics Ltd ... Toronto</h2>
             <h3>Nov.2018 To May.2020</h3>
             <p>
               * Run and maintained Indium8.9 (Pb-Free Solder Paste) for pick and place machine<br></br>

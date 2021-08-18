@@ -46,7 +46,7 @@
 :root {
   --primary-white: #ffffff;
   --primary-light-grey: #d1cece;
-  --primary-dark-grey: #666666;
+  --primary-dark-grey: #424141;
   --primary-orange: #f9ab00;
   --primary-dark: rgb(52, 58, 64);
   --primary-black: #000000;
@@ -290,6 +290,17 @@ nav ul li {
   color: var(--primary-orange);
   font-family: 'Patrick Hand', cursive;
 }
+.timeline-content h2 {
+  margin-top: 0.3125rem;
+  color: var(--primary-black);
+  font-weight: 900;
+}
+.timeline-content h3 {
+  margin-top: 0.3125rem;
+  color: var(--primary-red);
+  font-weight: 750;
+}
+
 /* for the line */
 .experience-wraper::before { 
   position: absolute;
@@ -335,11 +346,6 @@ nav ul li {
   direction: ltr; /*left to right */
   font-weight: 900;
   font-size: large;
-}
-.timeline-content h3 {
-  margin-top: 0.3125rem;
-  color: var(--primary-red);
-  font-weight: 900;
 }
 
 @media(max-width: 768px) {
