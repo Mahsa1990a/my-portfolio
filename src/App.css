@@ -244,7 +244,7 @@ nav ul li {
   margin-bottom: 1.875rem;
   margin-top: 1.875rem;
   background: var(--primary-white);
-  transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out; /* hovering with delay*/
 }
 
 .education .box:hover {
@@ -354,4 +354,40 @@ nav ul li {
   .timeline-block-left {
     width: 100%;
   }
+}
+/********************************** Projects **********************************************/
+.project-wrapper {
+  background: var(--primary-light-grey);
+  padding: 3rem 0; /* 3 top & bottom 0 left & right*/
+}
+.project-wrapper .project-h1 {
+  font-family: 'Patrick Hand', cursive;
+  color: var(--primary-orange);
+}
+.project-image {
+  width: 24rem;
+  border: 2px solid var(--primary-orange);
+  padding: 0 0.5rem;
+  height: 12rem;
+}
+.project-image-box {
+  position: relative;
+  margin: 1rem;
+}
+/************************* Projects Overflow Box *************************/
+
+
+.overflow {
+  position: absolute;
+  opacity: 0;
+  background: var(--primary-black);
+  width: 24rem;
+  height: 12rem;
+  top: 0;
+  border: 2px solid var(--primary-red);
+  cursor: pointer;
+}
+.project-image-box:hover .overflow {
+  opacity: 60%;
+  transition: 0.3s ease-in-out;
 }
