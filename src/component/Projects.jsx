@@ -2,6 +2,9 @@ import React from 'react';
 import Project1 from "../project1.png";
 import Project2 from "../project2.png";
 import Project3 from "../project3.png";
+// Font Awesome imports
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faSearchPlus } from "@fortawesome/free-solid-svg-icons"
 
 const Projects = () => {
   return (
@@ -12,16 +15,19 @@ const Projects = () => {
           <div className="project-image-box">
             <img className="project-image image1" src={Project1} alt="Project1" />
             <div className="overflow"></div>
+            <FontAwesomeIcon className="project-icon" icon={faSearchPlus} />
           </div>
           {/* - */}
           <div className="project-image-box">
             <img className="project-image image2" src={Project2} alt="Project2" />
             <div className="overflow"></div>
+            <FontAwesomeIcon className="project-icon" icon={faSearchPlus} />
           </div>
           {/* - */}
           <div className="project-image-box">
             <img className="project-image image3" src={Project3} alt="Project3" />
             <div className="overflow"></div>
+            <FontAwesomeIcon className="project-icon" icon={faSearchPlus} />
           </div>
         </div>
       </div>
