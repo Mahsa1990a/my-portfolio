@@ -1,8 +1,9 @@
 <!-- React Hooks
 Bootstrap 5
 React-Partials-JS
-React-Popupbox
-React-Responsive-Carousel -->
+React-Popupbox (for our boxes)
+React-Responsive-Carousel
+-->
 
 # Getting Started with Create React App
 

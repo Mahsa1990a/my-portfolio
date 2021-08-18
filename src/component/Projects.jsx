@@ -4,9 +4,24 @@ import Project2 from "../project2.png";
 import Project3 from "../project3.png";
 // Font Awesome imports
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faSearchPlus } from "@fortawesome/free-solid-svg-icons"
+import { faSearchPlus } from "@fortawesome/free-solid-svg-icons";
+// React-Popupbox
+import { PopupboxManager, PopupboxContainer } from "react-popupbox";
 
 const Projects = () => {
+
+  // Reflexion
+  const openPopupboxReflexion = () => {
+    <>
+    <img src={Project1} alt="Reflexion" />
+    <p>
+      React based project to create a yoga studio at home<br></br>
+      Tech Stack: React, Axios, Node.js, Express, Node-postgres, Tensorflow.js
+    </p>
+    <b>Github:</b><a className="hyper-link">https://github.com/Luke-Berzins/Reflexion</a>
+    </>
+  }
+
   return (
     <div className="project-wrapper">
       <div className="container">
