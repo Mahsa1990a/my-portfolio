@@ -12,22 +12,27 @@ const Projects = () => {
 
   // Reflexion
   const openPopupboxReflexion = () => {
+    const content = (
     <>
-    <img src={Project1} alt="Reflexion" />
-    <p>
-      React based project to create a yoga studio at home<br></br>
-      Tech Stack: React, Axios, Node.js, Express, Node-postgres, Tensorflow.js
-    </p>
-    <b>Github:</b><a className="hyper-link">https://github.com/Luke-Berzins/Reflexion</a>
+      <img src={Project1} alt="Reflexion" />
+      <p>
+        React based project to create a yoga studio at home<br></br>
+        Tech Stack: React, Axios, Node.js, Express, Node-postgres, Tensorflow.js
+      </p>
+      <b>Github:</b><a className="hyper-link" onClick={() => window.open("https://github.com/Luke-Berzins/Reflexion")}>https://github.com/Luke-Berzins/Reflexion</a>
     </>
-  }
+    )
+    PopupboxManager.open({ content })
+  };
+
+  const popupboxConfigReflexion =  {}
 
   return (
     <div className="project-wrapper">
       <div className="container">
         <h1 className="project-h1 text-uppercase text-center py-5">Projects</h1>
         <div className="image-box-wraper row row-cols-auto justify-content-center">
-          <div className="project-image-box">
+          <div className="project-image-box" onClick={openPopupboxReflexion}>
             <img className="project-image image1" src={Project1} alt="Project1" />
             <div className="overflow"></div>
             <FontAwesomeIcon className="project-icon" icon={faSearchPlus} />
@@ -46,6 +51,7 @@ const Projects = () => {
           </div>
         </div>
       </div>
+      <PopupboxContainer { ...popupboxConfigReflexion }/>
     </div>
   )
 }
