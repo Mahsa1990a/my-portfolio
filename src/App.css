@@ -366,6 +366,10 @@ nav ul li {
   background: var(--primary-light-grey);
   padding: 3rem 0; /* 3 top & bottom 0 left & right*/
 }
+.project-wrapper h1 {
+  color: var(--primary-orange);
+}
+
 .project-wrapper .project-h1 {
   font-family: 'Patrick Hand', cursive;
   color: var(--primary-orange);
@@ -435,4 +439,40 @@ nav ul li {
   padding-left: 0.7rem;
   font-family: 'Patrick Hand', cursive;
   font-weight: bolder;
+}
+/************************* Media Projects popupbox *************************/
+@media(max-width: 768px) {
+  .project-image-popupbox {
+    width: 100%;
+  }
+  .hyper-link {
+    font-size: smaller;
+    font-weight: 700;
+  }
+}
+@media(max-width: 468px) {
+  .project-image {
+    width: 20rem;
+    border: 2px solid var(--primary-orange);
+    padding: 0 0.5rem;
+    height: 10rem;
+  }
+}
+/* When we rotate mobile screen */
+@media(max-height: 570px) {
+  .project-image-popupbox {
+    width: 50%;
+  }
+  .popupbox-wrapper {
+    height: 100%;
+  }
+}
+/* When we rotate mobile screen => galaxy fold*/
+@media(max-height: 280px) {
+  .project-image-popupbox {
+    width: 30%;
+  }
+  .popupbox-wrapper {
+    height: 90%;
+  }
 }
