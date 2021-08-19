@@ -7,6 +7,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearchPlus } from "@fortawesome/free-solid-svg-icons";
 // React-Popupbox
 import { PopupboxManager, PopupboxContainer } from "react-popupbox";
+// Import it from node modules:
+import "react-popupbox/dist/react-popupbox.css"; // after this line, when click on image of project, it pops up
 
 const Projects = () => {
 
@@ -14,7 +16,7 @@ const Projects = () => {
   const openPopupboxReflexion = () => {
     const content = (
     <>
-      <img src={Project1} alt="Reflexion" />
+      <img className="project-image-popupbox" src={Project1} alt="Reflexion" />
       <p>
         React based project to create a yoga studio at home<br></br>
         Tech Stack: React, Axios, Node.js, Express, Node-postgres, Tensorflow.js

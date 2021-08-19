@@ -382,7 +382,6 @@ nav ul li {
 }
 /************************* Projects Overflow Box *************************/
 
-
 .overflow {
   position: absolute;
   opacity: 0;
@@ -411,4 +410,9 @@ nav ul li {
   opacity: 80%;
   transition: 0.3s ease-in-out;
   cursor: pointer;
+}
+/************************* Projects popupbox *************************/
+.project-image-popupbox {
+  width: 45rem;
+  padding: 0 0.5rem;/* 0 top & bottom 0.5 left & right*/
 }
