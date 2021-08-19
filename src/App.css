@@ -416,3 +416,23 @@ nav ul li {
   width: 45rem;
   padding: 0 0.5rem;/* 0 top & bottom 0.5 left & right*/
 }
+/* link css */
+.hyper-link {
+  cursor: pointer;
+  color: rgb(33, 11, 197);
+}
+.hyper-link:hover {
+  color: var(--primary-red); 
+}
+
+.project-reflexion-desc {
+  padding-top: 1rem;
+  padding-left: 0.7rem;
+  font-family: 'Patrick Hand', cursive;
+  font-weight: 900;
+}
+.github {
+  padding-left: 0.7rem;
+  font-family: 'Patrick Hand', cursive;
+  font-weight: bolder;
+}

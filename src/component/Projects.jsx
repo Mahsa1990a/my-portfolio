@@ -17,17 +17,25 @@ const Projects = () => {
     const content = (
     <>
       <img className="project-image-popupbox" src={Project1} alt="Reflexion" />
-      <p>
+      <p className="project-reflexion-desc">
         React based project to create a yoga studio at home<br></br>
         Tech Stack: React, Axios, Node.js, Express, Node-postgres, Tensorflow.js
       </p>
-      <b>Github:</b><a className="hyper-link" onClick={() => window.open("https://github.com/Luke-Berzins/Reflexion")}>https://github.com/Luke-Berzins/Reflexion</a>
+      <b className="github">Github: </b><a className="hyper-link" onClick={() => window.open("https://github.com/Luke-Berzins/Reflexion")}>https://github.com/Luke-Berzins/Reflexion</a>
     </>
     )
     PopupboxManager.open({ content })
   };
 
-  const popupboxConfigReflexion =  {}
+  const popupboxConfigReflexion =  {
+    titleBar: {
+      enable: true,
+      text: "Reflexion Project"
+    },
+    // Effect for popupbox:
+    fadeIn: true,
+    fadeInSpeed: 500
+  }
 
   return (
     <div className="project-wrapper">
