@@ -362,6 +362,7 @@ nav ul li {
   }
 }
 /********************************** Projects **********************************************/
+
 .project-wrapper {
   background: var(--primary-light-grey);
   padding: 3rem 0; /* 3 top & bottom 0 left & right*/
