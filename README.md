@@ -2,7 +2,7 @@
 Bootstrap 5
 React-Partials-JS
 React-Popupbox (for our boxes)
-React-Responsive-Carousel
+React-Responsive-Carousel (pictures goes after each other)
 -->
 
 # Getting Started with Create React App
