@@ -9,6 +9,7 @@ import AboutMe from './component/AboutMe';
 import Education from './component/Education';
 import Experience from './component/Experience';
 import Projects from './component/Projects';
+import Testimonials from './component/Testimonials';
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
       <Education />
       <Experience />
       <Projects />
+      <Testimonials />
     </>
   );
 }
