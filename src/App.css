@@ -512,3 +512,8 @@ nav ul li {
   padding-right: 5%;
   height: 17.875rem;
 }
+
+.carousel .slide img {
+  width: 10rem !important;
+  border-radius: 50%;
+}

@@ -8,7 +8,18 @@ import Avatar from "../Avatar.webp";
  
 const TestimonialsCarousel = () => {
   return (
-    <Carousel>
+    <Carousel
+      showArrows={true}
+      infiniteLoop={true}
+      // to not show pictures of avatars
+      showThumbs={false}
+      // will hide the numbers of page
+      showStatus={false}
+      // will show pics automatically with 3sec delay
+      autoPlay={true}
+      interval={3000}
+
+    >
       <>
         <img src={Avatar} alt="Avatar John Do1"/>
         <div className="myCarousel">
